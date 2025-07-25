@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Poter Books</title>
+</head>
+<style>
+.books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+.books img{
+    width:100%;
+    height:500px;
+
+}
+.books img:first-child{
+    grid-column: 1 / 3;
+}
+</style>
+<body>
+    <div class="books">
+        <img src="images/1book.jpg">
+        <img src="images/12book.jpg">
+        <img src="images/2book.jpg">
+        <img src="images/3book.jpg">
+        <img src="images/4book.jpg">
+        <img src="images/5book.jpg">
+        <img src="images/6book.jpg">
+        <img src="images/7book.jpg">
+        <img src="images/8book.jpg">
+    </div>
+</body>
+</html>
